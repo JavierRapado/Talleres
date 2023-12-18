@@ -1,0 +1,130 @@
+.menu a:hover{
+    background-color: #535853;
+    color: #FFF;
+}
+.menu{
+    list-style-type: none;
+}
+.menu{
+    text-align: center;
+    background-color: rgb(192, 206, 207);
+    font-size: 20px;
+}
+.menu ul{
+    
+    padding: 10px 0;    
+    
+}
+.menu li{
+    display: inline;
+    margin: 0 20px;    
+}
+a{
+    text-decoration: none;
+    color: black;
+    font-family: 'Courier New', Courier, monospace;
+}
+.titulo h1{
+    font-size: 30px;
+    text-align: center;   
+}
+.titulo img{
+    height: 173px;
+    width: 173px;
+}
+.titulo{
+    height: 30%;
+    width: 100%;
+    align-items: center;
+    align-content: center;
+    text-align: center;
+}
+.sectionleft{
+    width: 50%;
+    height: 85%;
+    float: left;
+    background-color: greenyellow;
+    text-align: center;
+    align-items: center;
+    align-content: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+}
+.sectionleft img{
+    height: auto;
+    width: 350px;
+}
+h2, h3{
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+}
+table{
+    border: solid;
+    border-color: rgb(0, 0, 0);
+}
+.section{
+    width: 100%;
+    height: auto;
+    background-color: rgb(126, 199, 231);
+
+}
+.sectionright{
+    width: 50%;
+    height: 85%;
+    float: right;
+    background-color: rgb(212, 255, 148);
+    text-align: center;
+    align-items: center;
+    align-content: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.sectionright img{
+    width: 80px;
+    height: 80px;
+}
+.sectionleft table{
+    text-align: center;
+    align-items: center;
+    align-content: center;
+    margin-left: 153px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+footer{
+    background-color: grey;
+    text-align: center;
+}
+form{
+    text-align: center;
+    align-items: center;
+    align-content: center;
+}
+.consulta h2{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.consulta ul{
+    list-style: decimal;
+    text-align: center;
+    list-style-position: inside;
+}
+body{
+    background-color: rgb(135, 224, 97);
+}
+.linea{
+    border: solid 1px;
+    margin-top: 4px;
+    margin-bottom: 30px;
+}
+.mensaje{
+    text-align: center;
+    align-items: center;
+    align-content: center;
+}
+.consulta{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+    align-items: center;
+    align-content: center;
+}
+.consulta h3{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}

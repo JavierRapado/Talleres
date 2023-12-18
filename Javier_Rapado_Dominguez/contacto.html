@@ -1,0 +1,106 @@
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	
+	<title>Talleres Martín</title>
+    <link rel="icon" href="img/tm-logo.jpg" type="image/x-icon">
+    <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+    <div class="container"></div>
+        <nav>
+            <ul class="menu">
+                <li><a href="index.html">INICIO</a></li>
+                <li><a href="contacto.html">CONTACTO</a></li>
+            </ul>
+        </nav>
+    </div>
+    <div class="section">
+        <h2>CONTACTO</h2>
+    </div>
+    <div class="Consulta">
+        <h2>Tipos de consulta</h2>
+        <select name="tipoconsulta">
+            <option value="0">Seleccione consulta:</option>
+            <option value="1">Neumáticos</option>
+            <option value="2">Aceite y filtros</option>
+            <option value="3">Baterías</option>
+            <option value="4">Climatización</option>
+            <option value="5">Kit de distribución</option>
+            <option value="6">Frenos y Escapes</option>
+        </select>
+        
+        <h3>Reclamación</h2>
+        <select name="reclamacion">
+            <option value="0">Seleccione reclamacion:</option>
+            <option value="1">Servicio</option>
+            <option value="2">Producto</option>
+        </select>
+
+        <h3>Otros</h2>
+        <select name="otros">
+            <option value="0">Otros:</option>
+            <option value="1">Preguntas</option>
+            <option value="2">Reparación</option>
+        </select>
+    </div>
+    <div class="linea"></div>
+    <div class="datos">
+        <h2>DATOS PERSONALES: </h2>
+        <form action="mailto:"talleresmartin@tuemail.com" method="post" enctype="text/plain">
+
+            <br><br>
+            Nombre:
+            <input type="text" name="nombre" size="20">
+            <br><br>
+            Apellidos:
+            <input type="text" name="apellidos" size="40">
+            <br><br>
+            DNI:
+            <input type="text" name="DNI" size="9">
+            <br><br>
+            Dirección:
+            <input type="text" name="direccion">
+            <br><br>
+            Provincia:
+            <select name="provincia">
+                <option value="0">Seleccione provincia:</option>
+                <option value="1">Zamora</option>
+                <option value="2">León</option>
+                <option value="3">Salamanca</option>
+                <option value="4">Palencia</option>
+                <option value="5">Burgos</option>
+                <option value="6">Valladolid</option>
+                <option value="7">Soria</option>
+                <option value="8">Ávila</option>
+                <option value="9">Segovias</option>
+            
+            </select>
+            <br><br>
+            Móvil:
+            <input type="text" name="movil">
+        </div>
+        <div class="linea"></div>
+        <div class="mensaje">
+            <br><br>
+            <h2>MENSAJE:</h2>
+            
+            <textarea name="comentarios" rows="5" cols="40"></textarea> <!--Rows son las filas y cols las columnas--><br><br>
+            <input type="submit" value="Enviar">
+            <input type="reset" value="Borrar">    
+        </div>
+        </form>
+        <br><br><br><br>
+    </div>
+    <footer>
+        <p>2022 Talleres Martín. Diseño por Javier Rapado Domínguez</p>
+        <br><br>
+    </footer>
+</body>
+
+
+
+
+
+</html>
